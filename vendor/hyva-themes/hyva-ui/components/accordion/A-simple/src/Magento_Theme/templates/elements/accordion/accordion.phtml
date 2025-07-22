@@ -1,0 +1,67 @@
+<?php
+/**
+ * Hyvä Themes - https://hyva.io
+ * Copyright © Hyvä Themes 2020-present. All rights reserved.
+ * This product is licensed per Magento install
+ * See https://hyva.io/license
+ */
+
+declare(strict_types=1);
+
+use Magento\Framework\Escaper;
+use Magento\Framework\View\Element\Template;
+
+/** @var Escaper $escaper */
+/** @var Template $block */
+
+$multiselectable = (bool) $block->getMultiselectable() ? 'true' : 'false';
+$showDivider = $block->getDivider() !== null ? $block->getDivider() : true;
+$classes = $block->getClasses() !== null ? $block->getClasses() : 'py-3 px-6 bg-gray-100';
+if ($showDivider) {
+    $classes .= ' divide-y';
+}
+
+$childNames = $block->getChildNames();
+$childTemplate = $block->getChildTemplate() ?: 'Magento_Theme::elements/accordion/item-collapse.phtml';
+?>
+
+<?php if(count($childNames)): ?>
+    <section
+        x-data="hyvaAccordion({ multiselectable: <?= /** @noEscape */ $multiselectable ?> })"
+        x-defer="intersect"
+        class="<?= $escaper->escapeHtmlAttr($classes) ?>"
+    >
+        <?php foreach ($childNames as $childName): ?>
+            <?= $block->getChildBlock($childName)->setTemplate($childTemplate)->toHtml() ?>
+        <?php endforeach; ?>
+    </section>
+
+    <script>
+        function hyvaAccordion({ multiselectable = false, childOpenStateName = 'open' } = {}) {
+            return {
+                accordion: null,
+                init() {
+                    this.accordion = this.$el.addEventListener('click', (event) => {
+                        if (multiselectable) return;
+                        const target = event.target.closest('[data-collapse]');
+                        if (!target) return;
+                        this.toggleItems(target);
+                    });
+                },
+                destroy() {
+                    removeEventListener('click', this.accordion);
+                },
+                toggleItems(target) {
+                    const items = [...this.$root.children];
+                    if (!items) return;
+
+                    items.forEach(item => {
+                        if (item._x_ids !== target._x_ids) {
+                            Alpine.$data(item)[childOpenStateName] = false;
+                        }
+                    });
+                },
+            }
+        }
+    </script>
+<?php endif ?>

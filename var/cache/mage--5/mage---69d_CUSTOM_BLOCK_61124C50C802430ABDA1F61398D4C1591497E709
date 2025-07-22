@@ -1,0 +1,209 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1752220982;s:6:"expire";i:1752224582;s:4:"tags";s:46:"69d_CAT_P_41,69d_CAT_P,69d_BLOCK_HTML,69d_MAGE";}
+
+<form method="post"
+    action="http://hyva.test/checkout/cart/add/uenc/%25uenc%25/product/41/"
+    class="item product product-item product_addtocart_form card card-interactive flex flex-col w-full "
+    >
+    <input name="form_key" type="hidden" value="RXzU7VgsVjWaQwsR" />    <input type="hidden" name="product" value="41"/>
+                <a href="http://hyva.test/luma-analog-watch.html"
+        title="Luma&#x20;Analog&#x20;Watch"
+        class="product photo product-item-photo block mx-auto mb-3 "
+        tabindex="-1"
+    >
+        <img class="hover:shadow-sm object-contain product-image-photo"
+     x-data=""
+     @update-gallery-41.window="$root.src = $event.detail"
+        src="http://hyva.test/media/catalog/product/cache/d5833d976c4b36f274d146ad81a57997/w/g/wg09-gr-0.jpg"
+        loading="lazy"
+        width="360"
+    height="360"
+    alt="Luma&#x20;Analog&#x20;Watch"
+    title="Luma&#x20;Analog&#x20;Watch"
+/>
+    </a>
+    <div class="product-info flex flex-col grow">
+        <div class="mt-2 mb-1 items-center justify-center text-primary font-semibold text-lg text-center ">
+            <a
+                class="product-item-link"
+                href="http://hyva.test/luma-analog-watch.html"
+                :id="`slide-desc-41-${$id('slider-id')}`"
+            >
+                Luma Analog Watch            </a>
+        </div>
+
+                <div class="py-1 mx-auto ">
+                <div
+        x-data="initRating416870c53601b65()"
+        x-defer="intersect"
+        @keyup.enter="scrollToRatings()"
+        @click="scrollToRatings()"
+        class="rating-summary flex"
+        :class="{'cursor-pointer' : reviewsSection}"
+                :tabindex="reviewsSection ? '0' : '-1'"
+        :aria-label="reviewsSection
+            ? 'Luma\u0020Analog\u0020Watch\u0020rating.\u00204\u0020out\u0020of\u00205\u0020stars.\u0020Click\u0020to\u0020go\u0020to\u0020reviews.'
+            : 'Luma\u0020Analog\u0020Watch\u0020rating.\u00204\u0020out\u0020of\u00205\u0020stars'
+        "
+        :role="reviewsSection ? 'button' : 'img'"
+    >
+                                                <svg
+                    xmlns="http://www.w3.org/2000/svg" class="fill-current w-6 h-6" viewBox="3 0 20 20"
+                    style="color: #f6e05e"
+                    fill="currentColor"
+                    aria-hidden="true"
+                >
+                    <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371
+                        1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54
+                        1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1
+                        1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                </svg>
+                                            <svg
+                    xmlns="http://www.w3.org/2000/svg" class="fill-current w-6 h-6" viewBox="3 0 20 20"
+                    style="color: #f6e05e"
+                    fill="currentColor"
+                    aria-hidden="true"
+                >
+                    <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371
+                        1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54
+                        1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1
+                        1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                </svg>
+                                            <svg
+                    xmlns="http://www.w3.org/2000/svg" class="fill-current w-6 h-6" viewBox="3 0 20 20"
+                    style="color: #f6e05e"
+                    fill="currentColor"
+                    aria-hidden="true"
+                >
+                    <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371
+                        1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54
+                        1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1
+                        1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                </svg>
+                                            <svg
+                    xmlns="http://www.w3.org/2000/svg" class="fill-current w-6 h-6" viewBox="3 0 20 20"
+                    style="color: #f6e05e"
+                    fill="currentColor"
+                    aria-hidden="true"
+                >
+                    <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371
+                        1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54
+                        1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1
+                        1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                </svg>
+                                                                                    <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="fill-current w-6 h-6"
+                    style="color: #cbd5e0"
+                    viewBox="3 0 20 20"
+                    fill="currentColor"
+                    aria-hidden="true"
+                >
+                    <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0
+                        1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54
+                        1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1
+                        1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                </svg>
+                                            </div>
+
+    <script>
+        'use strict';
+
+        function initRating416870c53601b65() {
+            return {
+                reviewsSection: document.getElementById('customer-review-list')
+                    || document.getElementById('customer-reviews')
+                    || document.getElementById('review-form'),
+                scrollToRatings() {
+                    let scrollTimeout = null
+
+                    if (!this.reviewsSection) {
+                        return
+                    }
+
+                    addEventListener('scroll', () => {
+                        clearTimeout(scrollTimeout);
+
+                        scrollTimeout = setTimeout(() => {
+                            if (this.reviewsSection) {
+                                this.reviewsSection.focus()
+                            }
+                        }, 50);
+                    }, { once: true });
+
+                    this.reviewsSection.scrollIntoView({behavior: 'smooth'})
+                }
+            }
+        }
+    </script>
+        </div>
+        
+                            
+        
+        
+        <div class="pt-1 text-gray-900"
+             x-data="initPriceBox()"
+             x-defer="intersect"
+             @update-prices-41.window="updatePrice($event.detail);"
+        >
+            <div class="price-box price-final_price" data-role="priceBox" data-product-id="41" data-price-box="product-id-41">
+    <span
+    x-data x-id="['product\u002Dprice\u002D41']"    class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+        <span  :id="$id('product\u002Dprice\u002D41')"                data-price-amount="43"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">$43.00</span></span>
+        </span>
+
+</div>        </div>
+
+        <div class="mt-auto pt-3 flex flex-wrap items-center gap-y-4 gap-x-2
+            ">
+                                            <button
+                    class="w-auto btn btn-primary justify-center text-sm mr-auto"
+                    title="Add&#x20;to&#x20;Cart&#x20;Luma&#x20;Analog&#x20;Watch"
+                    aria-label="Add&#x20;to&#x20;Cart&#x20;Luma&#x20;Analog&#x20;Watch"
+                    data-addto="cart"
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" width="24" height="24" aria-hidden="true">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>
+</svg>
+                    <span class="ml-2 inline md:ml-0 md:hidden lg:ml-2 lg:inline">
+                        Add to Cart                    </span>
+                </button>
+                
+                        <div class="flex flex-wrap gap-2">
+                                <button x-data="initWishlist()"
+                        x-defer="intersect"
+                        @click.prevent="addToWishlist(41)"
+                        aria-label="Add&#x20;to&#x20;Wish&#x20;List&#x20;Luma&#x20;Analog&#x20;Watch"
+                        type="button"
+                        class="rounded-full w-9 h-9 bg-gray-200 p-0 border-0 inline-flex shrink-0 items-center justify-center text-gray-500 hover:text-red-600"
+                        data-addto="wishlist"
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5" width="25" height="25" aria-hidden="true">
+  <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"/>
+</svg>
+                </button>
+                                                <button x-data="initCompareOnProductList()"
+                        x-defer="intersect"
+                        @click.prevent="addToCompare(41)"
+                        aria-label="Add&#x20;to&#x20;Compare&#x20;Luma&#x20;Analog&#x20;Watch"
+                        type="button"
+                        class="rounded-full w-9 h-9 bg-gray-200 p-0 border-0 inline-flex shrink-0 items-center justify-center text-gray-500 hover:text-yellow-500"
+                        data-addto="compare"
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5" width="25" height="25" aria-hidden="true">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/>
+</svg>
+                </button>
+                                                                                </div>
+        </div>
+    </div>
+</form>

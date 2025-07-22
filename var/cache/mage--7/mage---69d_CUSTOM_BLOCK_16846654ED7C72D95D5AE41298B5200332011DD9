@@ -1,0 +1,562 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1752221428;s:6:"expire";i:1752225028;s:4:"tags";s:47:"69d_CAT_P_254,69d_CAT_P,69d_BLOCK_HTML,69d_MAGE";}
+
+<form method="post"
+    action="http://hyva.test/checkout/cart/add/uenc/%25uenc%25/product/254/"
+    class="item product product-item product_addtocart_form card card-interactive flex flex-col w-full "
+    >
+    <input name="form_key" type="hidden" value="RXzU7VgsVjWaQwsR" />    <input type="hidden" name="product" value="254"/>
+                <a href="http://hyva.test/marco-lightweight-active-hoodie.html"
+        title="Marco&#x20;Lightweight&#x20;Active&#x20;Hoodie"
+        class="product photo product-item-photo block mx-auto mb-3 "
+        tabindex="-1"
+    >
+        <img class="hover:shadow-sm object-contain product-image-photo"
+     x-data=""
+     @update-gallery-254.window="$root.src = $event.detail"
+        src="http://hyva.test/media/catalog/product/cache/d5833d976c4b36f274d146ad81a57997/m/h/mh13-blue_main_4.jpg"
+        loading="lazy"
+        width="360"
+    height="360"
+    alt="Marco&#x20;Lightweight&#x20;Active&#x20;Hoodie"
+    title="Marco&#x20;Lightweight&#x20;Active&#x20;Hoodie"
+/>
+    </a>
+    <div class="product-info flex flex-col grow">
+        <div class="mt-2 mb-1 items-center justify-center text-primary font-semibold text-lg text-center ">
+            <a
+                class="product-item-link"
+                href="http://hyva.test/marco-lightweight-active-hoodie.html"
+                :id="`slide-desc-254-${$id('slider-id')}`"
+            >
+                Marco Lightweight Active Hoodie            </a>
+        </div>
+
+                <div class="py-1 mx-auto ">
+                <div
+        x-data="initRating2546870c6f440cf7()"
+        x-defer="intersect"
+        @keyup.enter="scrollToRatings()"
+        @click="scrollToRatings()"
+        class="rating-summary flex"
+        :class="{'cursor-pointer' : reviewsSection}"
+                    title="Be&#x20;the&#x20;first&#x20;to&#x20;review&#x20;this&#x20;product"
+                :tabindex="reviewsSection ? '0' : '-1'"
+        :aria-label="reviewsSection
+            ? 'Marco\u0020Lightweight\u0020Active\u0020Hoodie\u0020rating.\u00200\u0020out\u0020of\u00205\u0020stars.\u0020Click\u0020to\u0020go\u0020to\u0020reviews.'
+            : 'Marco\u0020Lightweight\u0020Active\u0020Hoodie\u0020rating.\u00200\u0020out\u0020of\u00205\u0020stars'
+        "
+        :role="reviewsSection ? 'button' : 'img'"
+    >
+                                                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="fill-current text-gray-200 w-6 h-6"
+                    viewBox="3 0 20 20"
+                    fill="currentColor"
+                    aria-hidden="true"
+                >
+                    <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371
+                        1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54
+                        1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1
+                        1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                </svg>
+                                            <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="fill-current text-gray-200 w-6 h-6"
+                    viewBox="3 0 20 20"
+                    fill="currentColor"
+                    aria-hidden="true"
+                >
+                    <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371
+                        1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54
+                        1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1
+                        1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                </svg>
+                                            <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="fill-current text-gray-200 w-6 h-6"
+                    viewBox="3 0 20 20"
+                    fill="currentColor"
+                    aria-hidden="true"
+                >
+                    <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371
+                        1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54
+                        1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1
+                        1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                </svg>
+                                            <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="fill-current text-gray-200 w-6 h-6"
+                    viewBox="3 0 20 20"
+                    fill="currentColor"
+                    aria-hidden="true"
+                >
+                    <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371
+                        1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54
+                        1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1
+                        1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                </svg>
+                                            <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="fill-current text-gray-200 w-6 h-6"
+                    viewBox="3 0 20 20"
+                    fill="currentColor"
+                    aria-hidden="true"
+                >
+                    <path
+                        d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371
+                        1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54
+                        1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1
+                        1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"
+                    />
+                </svg>
+                                        </div>
+
+    <script>
+        'use strict';
+
+        function initRating2546870c6f440cf7() {
+            return {
+                reviewsSection: document.getElementById('customer-review-list')
+                    || document.getElementById('customer-reviews')
+                    || document.getElementById('review-form'),
+                scrollToRatings() {
+                    let scrollTimeout = null
+
+                    if (!this.reviewsSection) {
+                        return
+                    }
+
+                    addEventListener('scroll', () => {
+                        clearTimeout(scrollTimeout);
+
+                        scrollTimeout = setTimeout(() => {
+                            if (this.reviewsSection) {
+                                this.reviewsSection.focus()
+                            }
+                        }, 50);
+                    }, { once: true });
+
+                    this.reviewsSection.scrollIntoView({behavior: 'smooth'})
+                }
+            }
+        }
+    </script>
+        </div>
+        
+                    
+    <script>
+        function initConfigurableSwatchOptions_254() {
+            const configurableOptionsComponent = initConfigurableOptions(
+                '254',
+                {"attributes":{"142":{"id":"142","code":"size","label":"Size","options":[{"id":"166","label":"XS","products":["239","240","241"]},{"id":"167","label":"S","products":["242","243","244"]},{"id":"168","label":"M","products":["245","246","247"]},{"id":"169","label":"L","products":["248","249","250"]},{"id":"170","label":"XL","products":["251","252","253"]}],"position":"0"},"93":{"id":"93","code":"color","label":"Color","options":[{"id":"50","label":"Blue","products":["239","242","245","248","251"]},{"id":"53","label":"Green","products":["240","243","246","249","252"]},{"id":"54","label":"Lavender","products":["241","244","247","250","253"]}],"position":"1"}},"template":"$<%- data.price %>","currencyFormat":"$%s","optionPrices":{"239":{"baseOldPrice":{"amount":74},"oldPrice":{"amount":74},"basePrice":{"amount":74},"finalPrice":{"amount":74},"tierPrices":[],"msrpPrice":{"amount":0}},"240":{"baseOldPrice":{"amount":74},"oldPrice":{"amount":74},"basePrice":{"amount":74},"finalPrice":{"amount":74},"tierPrices":[],"msrpPrice":{"amount":0}},"241":{"baseOldPrice":{"amount":74},"oldPrice":{"amount":74},"basePrice":{"amount":74},"finalPrice":{"amount":74},"tierPrices":[],"msrpPrice":{"amount":0}},"242":{"baseOldPrice":{"amount":74},"oldPrice":{"amount":74},"basePrice":{"amount":74},"finalPrice":{"amount":74},"tierPrices":[],"msrpPrice":{"amount":0}},"243":{"baseOldPrice":{"amount":74},"oldPrice":{"amount":74},"basePrice":{"amount":74},"finalPrice":{"amount":74},"tierPrices":[],"msrpPrice":{"amount":0}},"244":{"baseOldPrice":{"amount":74},"oldPrice":{"amount":74},"basePrice":{"amount":74},"finalPrice":{"amount":74},"tierPrices":[],"msrpPrice":{"amount":0}},"245":{"baseOldPrice":{"amount":74},"oldPrice":{"amount":74},"basePrice":{"amount":74},"finalPrice":{"amount":74},"tierPrices":[],"msrpPrice":{"amount":0}},"246":{"baseOldPrice":{"amount":74},"oldPrice":{"amount":74},"basePrice":{"amount":74},"finalPrice":{"amount":74},"tierPrices":[],"msrpPrice":{"amount":0}},"247":{"baseOldPrice":{"amount":74},"oldPrice":{"amount":74},"basePrice":{"amount":74},"finalPrice":{"amount":74},"tierPrices":[],"msrpPrice":{"amount":0}},"248":{"baseOldPrice":{"amount":74},"oldPrice":{"amount":74},"basePrice":{"amount":74},"finalPrice":{"amount":74},"tierPrices":[],"msrpPrice":{"amount":0}},"249":{"baseOldPrice":{"amount":74},"oldPrice":{"amount":74},"basePrice":{"amount":74},"finalPrice":{"amount":74},"tierPrices":[],"msrpPrice":{"amount":0}},"250":{"baseOldPrice":{"amount":74},"oldPrice":{"amount":74},"basePrice":{"amount":74},"finalPrice":{"amount":74},"tierPrices":[],"msrpPrice":{"amount":0}},"251":{"baseOldPrice":{"amount":74},"oldPrice":{"amount":74},"basePrice":{"amount":74},"finalPrice":{"amount":74},"tierPrices":[],"msrpPrice":{"amount":0}},"252":{"baseOldPrice":{"amount":74},"oldPrice":{"amount":74},"basePrice":{"amount":74},"finalPrice":{"amount":74},"tierPrices":[],"msrpPrice":{"amount":0}},"253":{"baseOldPrice":{"amount":74},"oldPrice":{"amount":74},"basePrice":{"amount":74},"finalPrice":{"amount":74},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":false},"prices":{"baseOldPrice":{"amount":74},"oldPrice":{"amount":74},"basePrice":{"amount":74},"finalPrice":{"amount":74}},"productId":"254","chooseText":"Choose an Option...","images":[],"index":{"239":{"142":"166","93":"50"},"240":{"142":"166","93":"53"},"241":{"142":"166","93":"54"},"242":{"142":"167","93":"50"},"243":{"142":"167","93":"53"},"244":{"142":"167","93":"54"},"245":{"142":"168","93":"50"},"246":{"142":"168","93":"53"},"247":{"142":"168","93":"54"},"248":{"142":"169","93":"50"},"249":{"142":"169","93":"53"},"250":{"142":"169","93":"54"},"251":{"142":"170","93":"50"},"252":{"142":"170","93":"53"},"253":{"142":"170","93":"54"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"channel":"website","salesChannelCode":"base","sku":{"239":"MH13-XS-Blue","240":"MH13-XS-Green","241":"MH13-XS-Lavender","242":"MH13-S-Blue","243":"MH13-S-Green","244":"MH13-S-Lavender","245":"MH13-M-Blue","246":"MH13-M-Green","247":"MH13-M-Lavender","248":"MH13-L-Blue","249":"MH13-L-Green","250":"MH13-L-Lavender","251":"MH13-XL-Blue","252":"MH13-XL-Green","253":"MH13-XL-Lavender"}}            );
+            const swatchOptionsComponent = initSwatchOptions({"142":{"166":{"type":"0","value":"XS","label":"XS"},"167":{"type":"0","value":"S","label":"S"},"168":{"type":"0","value":"M","label":"M"},"169":{"type":"0","value":"L","label":"L"},"170":{"type":"0","value":"XL","label":"XL"},"additional_data":"{\"swatch_input_type\":\"text\",\"update_product_preview_image\":1,\"use_product_image_for_swatch\":0}"},"93":{"50":{"type":"1","value":"#1857f7","label":"Blue"},"53":{"type":"1","value":"#53a828","label":"Green"},"54":{"type":"1","value":"#ce64d4","label":"Lavender"},"additional_data":"{\"swatch_input_type\":\"visual\",\"update_product_preview_image\":1,\"use_product_image_for_swatch\":0}"}});
+
+            return Object.assign(
+                configurableOptionsComponent,
+                swatchOptionsComponent,
+                {
+                    mediaCallback: "http\u003A\u002F\u002Fhyva.test\u002Fswatches\u002Fajax\u002Fmedia\u002F",
+                    changeOption(optionId, value, skipUpdateGallery) {
+                        if (value === '') {
+                            this.selectedValues = this.removeAttrFromSelection(this.selectedValues, optionId)
+                        } else {
+                            this.selectedValues[optionId] = value;
+                        }
+                        this.findSimpleIndex();
+                        this.findAllowedAttributeOptions();
+                        this.updatePrices();
+                        !skipUpdateGallery && this.updateGallery();
+                        window.dispatchEvent(new CustomEvent('listing-configurable-selection-changed', {
+                            detail: {
+                                productId: this.productId,
+                                optionId,
+                                value,
+                                productIndex: this.productIndex,
+                                selectedValues: this.selectedValues,
+                                candidates: this.findProductIdsForPartialSelection(this.selectedValues),
+                            }
+                        }));
+                    },
+                    updateGallery() {
+                        if (!this.productIndex) {
+                            return;
+                        }
+
+                        fetch(`${this.mediaCallback}?product_id=${this.productIndex}&isAjax=true`, {
+                                method: 'GET',
+                                headers: {
+                                    'Content-Type': 'application/json',
+                                    'X-Requested-With': 'XMLHttpRequest'
+                                }
+                            }
+                        ).then(response => {
+                                return response.json()
+                            }
+                        ).then(data => {
+                            if (data.errors) {
+                                // non critical failure only console logged
+                                console.warn(data.errors);
+                            } else {
+                                const image = data && data.medium;
+
+                                image && window.dispatchEvent(
+                                    new CustomEvent(
+                                        "update-gallery-254",
+                                        {detail: image}
+                                    )
+                                );
+                            }
+                        }).catch(error => {
+                            console.warn(error)
+                        });
+                    },
+                    preselectQuerystringItems() {
+                        // pre-select option like ?size=167
+                        const urlQueryParams = new URLSearchParams(window.location.search.replace('?', ''));
+                        Object.values(this.optionConfig.attributes).map(attribute => {
+                            // Don't update images on load, since PLPs already set the main image to the selected options
+                            const skipUpdateGallery = true;
+                            urlQueryParams.get(attribute.code) &&
+                            this.changeOption(attribute.id, urlQueryParams.get(attribute.code), skipUpdateGallery);
+                        });
+                    },
+                    mouseDown: false,
+                    startX: 0,
+                    maxScroll: 0,
+                    scrollLeft: null,
+                    slider: null,
+                    scrollEvents: {
+                        ['@mousedown'](e) {
+                            this.slider = e.target.closest('.snap');
+                            if (!this.slider) {
+                                return;
+                            }
+                            this.maxScroll = this.slider.scrollWidth - this.slider.offsetWidth;
+                            this.startX = e.pageX - this.slider.offsetLeft;
+                            this.scrollLeft = this.slider.scrollLeft;
+                            this.mouseDown = true;
+                        },
+                        ['@mouseout.self']() {
+                            this.mouseDown = false;
+                        },
+                        ['@mouseup']() {
+                            this.mouseDown = false;
+                        },
+                        ['@mousemove'](e) {
+                            e.preventDefault();
+                            if (!this.mouseDown) {
+                                return;
+                            }
+                            const x = e.pageX - this.slider.offsetLeft;
+                            const scroll = x - this.startX;
+                            const scrollLeft = this.scrollLeft - scroll;
+
+                            if (scrollLeft > this.maxScroll) {
+                                this.slider.scrollLeft = this.maxScroll;
+                                return
+                            }
+                            this.slider.scrollLeft = this.scrollLeft - scroll;
+                        },
+                        ['@onselectstart']() {
+                            return false;
+                        }
+                    },
+                    resizeEvent() {
+                        Array.from(this.$root.querySelectorAll('.snap')).forEach(slider => {
+                            slider.scrollLeft = 0;
+                        })
+                    }
+                }
+            );
+        }
+
+    </script>
+
+<div x-data="initConfigurableSwatchOptions_254()"
+     x-defer="intersect"
+     x-init="findAllowedAttributeOptions(); initShowSwatchesIntersect();"
+     @private-content-loaded.window="onGetCartData($event.detail.data)"
+     @resize.window="resizeEvent()"
+     class="mb-2 relative"
+>
+    <div>
+                                
+                    <div class="swatch-attribute border-t last:border-b border-container
+            size"
+        >
+            <div class="w-full overflow-x-hidden swatch-attribute-options min-h-14">
+                <template x-if="showSwatches">
+                    <div class="flex flex-nowrap w-full overflow-auto snap items-center py-1"
+                        id="attribute-label-254-142"
+                        role="radiogroup"
+                        x-bind="scrollEvents"
+                        aria-label="Size"
+                    >
+                        <template x-for="(item, index) in optionConfig.attributes[142].options"
+                                  :key="item.id"
+                        >
+                            
+<div x-id="['attribute-option-254-'+item.id]">
+    <template x-if="optionIsEnabled(142, item.id) && optionIsActive(142, item.id)">
+        <label
+            :for="$id('attribute-option-254-'+item.id)"
+            class="swatch-option relative shadow-sm cursor-pointer select-none bg-container-lighter product-option-value-label"
+            :class="{
+                'border-container-lighter ring ring-primary/50':
+                    (selectedValues[142] === item.id),
+                'border-container-darker':
+                    (selectedValues[142] !== item.id),
+                'w-6 h-6' : !isTextSwatch(142, item.id),
+                'border-container-lighter ring ring-primary/75' : focusedLabel === item.id
+            }"
+            :style="getSwatchBackgroundStyle('142',item.id)"
+                            @mouseenter.self="activeTooltipItem = {
+                    attribute: '142',
+                    item: item.id,
+                    index
+                }; tooltipPositionElement = $event.target;"
+                @mouseleave.self="activeTooltipItem = false"
+                    >
+            <input
+                :id="$id('attribute-option-254-'+item.id)"
+                :value="item.id"
+                name="super_attribute[142]"
+                type="radio"
+                class="inline-block absolute p-0 border-0 focus:border-0 focus:ring-0 product-option-value-input"
+                style="z-index:-1"
+                x-on:focus="focusLabel(item.id)"
+                x-on:blur="blurLabel()"
+                x-on:change="changeOption(142, $event.target.value)"
+                x-on:click="clearOptionIfActive(142, item.id)"
+                x-model="selectedValues[142]"
+                :required="getAllowedAttributeOptions(142).filter(
+                    attributeOption => selectedValues[attributeOption]
+                ).length === 0"
+                :aria-label="getSwatchText(142, item.id)"
+                aria-describedby="attribute-label-254-142"
+            >
+            <template x-if="isTextSwatch(142, item.id)">
+                <div
+                    x-html="getSwatchText(142, item.id)"
+                    class="pointer-events-none select-none whitespace-nowrap"
+                    aria-hidden="true"
+                ></div>
+            </template>
+        </label>
+    </template>
+
+    <template x-if="optionIsEnabled(142, item.id) && !optionIsActive(142, item.id)">
+        <div
+            class="relative border-2 shadow-sm opacity-50 cursor-pointer select-none border-container-darker swatch-option bg-container-lighter"
+            :class="{
+                                                        'w-6 h-6' : !isTextSwatch(142, item.id),
+                                                    }"
+            :style="getSwatchBackgroundStyle('142',item.id)"
+        >
+            <div x-html="getSwatchText(142, item.id)"
+                 class="whitespace-nowrap"
+                 :class="{ 'sr-only' : !isTextSwatch(142, item.id) }"
+            ></div>
+            <svg class="absolute inset-0 w-full h-full text-gray-500 bg-white/25">
+                <line x1="0" y1="100%" x2="100%" y2="0" class="stroke-current stroke-1"></line>
+            </svg>
+        </div>
+    </template>
+</div>
+                        </template>
+                    </div>
+                </template>
+            </div>
+        </div>
+                                
+                    <div class="swatch-attribute border-t last:border-b border-container
+            color"
+        >
+            <div class="w-full overflow-x-hidden swatch-attribute-options min-h-14">
+                <template x-if="showSwatches">
+                    <div class="flex flex-nowrap w-full overflow-auto snap items-center py-1"
+                        id="attribute-label-254-93"
+                        role="radiogroup"
+                        x-bind="scrollEvents"
+                        aria-label="Color"
+                    >
+                        <template x-for="(item, index) in optionConfig.attributes[93].options"
+                                  :key="item.id"
+                        >
+                            
+<div x-id="['attribute-option-254-'+item.id]">
+    <template x-if="optionIsEnabled(93, item.id) && optionIsActive(93, item.id)">
+        <label
+            :for="$id('attribute-option-254-'+item.id)"
+            class="swatch-option relative shadow-sm cursor-pointer select-none bg-container-lighter product-option-value-label"
+            :class="{
+                'border-container-lighter ring ring-primary/50':
+                    (selectedValues[93] === item.id),
+                'border-container-darker':
+                    (selectedValues[93] !== item.id),
+                'w-6 h-6' : !isTextSwatch(93, item.id),
+                'border-container-lighter ring ring-primary/75' : focusedLabel === item.id
+            }"
+            :style="getSwatchBackgroundStyle('93',item.id)"
+                            @mouseenter.self="activeTooltipItem = {
+                    attribute: '93',
+                    item: item.id,
+                    index
+                }; tooltipPositionElement = $event.target;"
+                @mouseleave.self="activeTooltipItem = false"
+                    >
+            <input
+                :id="$id('attribute-option-254-'+item.id)"
+                :value="item.id"
+                name="super_attribute[93]"
+                type="radio"
+                class="inline-block absolute p-0 border-0 focus:border-0 focus:ring-0 product-option-value-input"
+                style="z-index:-1"
+                x-on:focus="focusLabel(item.id)"
+                x-on:blur="blurLabel()"
+                x-on:change="changeOption(93, $event.target.value)"
+                x-on:click="clearOptionIfActive(93, item.id)"
+                x-model="selectedValues[93]"
+                :required="getAllowedAttributeOptions(93).filter(
+                    attributeOption => selectedValues[attributeOption]
+                ).length === 0"
+                :aria-label="getSwatchText(93, item.id)"
+                aria-describedby="attribute-label-254-93"
+            >
+            <template x-if="isTextSwatch(93, item.id)">
+                <div
+                    x-html="getSwatchText(93, item.id)"
+                    class="pointer-events-none select-none whitespace-nowrap"
+                    aria-hidden="true"
+                ></div>
+            </template>
+        </label>
+    </template>
+
+    <template x-if="optionIsEnabled(93, item.id) && !optionIsActive(93, item.id)">
+        <div
+            class="relative border-2 shadow-sm opacity-50 cursor-pointer select-none border-container-darker swatch-option bg-container-lighter"
+            :class="{
+                                                        'w-6 h-6' : !isTextSwatch(93, item.id),
+                                                    }"
+            :style="getSwatchBackgroundStyle('93',item.id)"
+        >
+            <div x-html="getSwatchText(93, item.id)"
+                 class="whitespace-nowrap"
+                 :class="{ 'sr-only' : !isTextSwatch(93, item.id) }"
+            ></div>
+            <svg class="absolute inset-0 w-full h-full text-gray-500 bg-white/25">
+                <line x1="0" y1="100%" x2="100%" y2="0" class="stroke-current stroke-1"></line>
+            </svg>
+        </div>
+    </template>
+</div>
+                        </template>
+                    </div>
+                </template>
+            </div>
+        </div>
+            </div>
+            <template x-if="isTooltipVisible()">
+    <div class="absolute pointer-events-none select-none"
+         :style="getTooltipPosition()"
+    >
+        <div class="shadow-lg">
+            <div class="absolute top-0 left-0 z-10 min-w-20 p-2 -mt-6 text-sm leading-tight text-black
+                    transform -translate-x-1/2 -translate-y-full bg-white rounded-lg shadow-lg text-center"
+                 :class="{'-translate-x-5' : isFirstItemCol()}"
+            >
+            <template x-if="isVisualSwatch(activeTooltipItem.attribute, activeTooltipItem.item)">
+                <div class="inline-block border shadow-sm border-container"
+                     :style="getTooltipImageStyle(activeTooltipItem.attribute, activeTooltipItem.item)"
+                ></div>
+            </template>
+                <span class="mx-2 text-lg font-semibold whitespace-nowrap subtitle"
+                      x-html="getTooltipLabel()"
+                ></span>
+            </div>
+            <svg class="absolute z-10 w-8 h-8 text-white transform -translate-x-1/5
+                    -translate-y-8 fill-current stroke-current"
+                 width="12"
+                 height="12"
+            >
+                <rect x="12" y="-12" width="12" height="12" transform="rotate(45)" class="shadow-xl" />
+            </svg>
+        </div>
+    </div>
+</template>
+    </div>
+        
+        
+        
+        <div class="pt-1 text-gray-900"
+             x-data="initPriceBox()"
+             x-defer="intersect"
+             @update-prices-254.window="updatePrice($event.detail);"
+        >
+            <div class="price-box price-final_price" data-role="priceBox" data-product-id="254" data-price-box="product-id-254">    <span class="normal-price">
+<span
+    x-data x-id="['product\u002Dprice\u002D254']"    class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+        <span  :id="$id('product\u002Dprice\u002D254')"                data-price-amount="74"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">$74.00</span></span>
+        </span>
+</span>
+
+
+</div>        </div>
+
+        <div class="mt-auto pt-3 flex flex-wrap items-center gap-y-4 gap-x-2
+            ">
+                                            <button
+                    class="w-auto btn btn-primary justify-center text-sm mr-auto"
+                    title="Add&#x20;to&#x20;Cart&#x20;Marco&#x20;Lightweight&#x20;Active&#x20;Hoodie"
+                    aria-label="Add&#x20;to&#x20;Cart&#x20;Marco&#x20;Lightweight&#x20;Active&#x20;Hoodie"
+                    data-addto="cart"
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" width="24" height="24" aria-hidden="true">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"/>
+</svg>
+                    <span class="ml-2 inline md:ml-0 md:hidden lg:ml-2 lg:inline">
+                        Add to Cart                    </span>
+                </button>
+                
+                        <div class="flex flex-wrap gap-2">
+                                <button x-data="initWishlist()"
+                        x-defer="intersect"
+                        @click.prevent="addToWishlist(254)"
+                        aria-label="Add&#x20;to&#x20;Wish&#x20;List&#x20;Marco&#x20;Lightweight&#x20;Active&#x20;Hoodie"
+                        type="button"
+                        class="rounded-full w-9 h-9 bg-gray-200 p-0 border-0 inline-flex shrink-0 items-center justify-center text-gray-500 hover:text-red-600"
+                        data-addto="wishlist"
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5" width="25" height="25" aria-hidden="true">
+  <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"/>
+</svg>
+                </button>
+                                                <button x-data="initCompareOnProductList()"
+                        x-defer="intersect"
+                        @click.prevent="addToCompare(254)"
+                        aria-label="Add&#x20;to&#x20;Compare&#x20;Marco&#x20;Lightweight&#x20;Active&#x20;Hoodie"
+                        type="button"
+                        class="rounded-full w-9 h-9 bg-gray-200 p-0 border-0 inline-flex shrink-0 items-center justify-center text-gray-500 hover:text-yellow-500"
+                        data-addto="compare"
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-5 h-5" width="25" height="25" aria-hidden="true">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"/>
+</svg>
+                </button>
+                                                                                </div>
+        </div>
+    </div>
+</form>

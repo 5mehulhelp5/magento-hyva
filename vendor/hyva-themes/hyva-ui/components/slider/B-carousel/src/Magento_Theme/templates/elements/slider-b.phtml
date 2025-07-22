@@ -1,0 +1,187 @@
+<?php
+/**
+ * Hyvä Themes - https://hyva.io
+ * Copyright © Hyvä Themes 2020-present. All rights reserved.
+ * This product is licensed per Magento install
+ * See https://hyva.io/license
+ */
+
+declare(strict_types=1);
+
+use Hyva\Theme\Model\ViewModelRegistry;
+use Hyva\Theme\ViewModel\SvgIcons;
+use Magento\Framework\View\Element\Template;
+use Magento\Framework\Escaper;
+
+/** @var ViewModelRegistry $viewModels */
+/** @var Template $block */
+/** @var Escaper $escaper */
+
+$showTitle = $block->getShowTitle() !== null ? $block->getShowTitle() : true;
+$icons = $viewModels->require(SvgIcons::class);
+$defaultWidth = 270;
+$defaultHeight = 95;
+
+/**
+ * Each item needs either 'svg' or 'image_path' to be set
+ * `svg` expects a valid string containing SVG source code,
+ * `image_url` expects an url to an image
+ *
+ * We're generating the SVG source using the SvgIcons, which are documented here:
+ * https://docs.hyva.io/hyva-themes/writing-code/working-with-view-models/svgicons.html
+ *
+ * Sample item with all options:
+ * ```php
+ * [
+ *   'image_url' => $block->getViewFileUrl('Hyva_Theme::svg/lorum-logo-1.svg'),
+ *   'alt' => 'logo ipsum',
+ *   'image_width' => $defaultWidth,
+ *   'image_height' => $defaultHeight,
+ * ]
+ * ```
+ */
+$items = [
+    ['svg' => $icons->lorumLogo1Html('max-w-full text-slate-600', $defaultWidth, $defaultHeight)],
+    ['svg' => $icons->lorumLogo2Html('max-w-full text-slate-600', $defaultWidth, $defaultHeight)],
+    ['svg' => $icons->lorumLogo3Html('max-w-full text-slate-600', $defaultWidth, $defaultHeight)],
+    ['svg' => $icons->lorumLogo4Html('max-w-full text-slate-600', $defaultWidth, $defaultHeight)],
+    ['svg' => $icons->lorumLogo5Html('max-w-full text-slate-600', $defaultWidth, $defaultHeight)],
+    ['svg' => $icons->lorumLogo1Html('max-w-full text-slate-600', $defaultWidth, $defaultHeight)],
+    ['svg' => $icons->lorumLogo2Html('max-w-full text-slate-600', $defaultWidth, $defaultHeight)],
+    ['svg' => $icons->lorumLogo3Html('max-w-full text-slate-600', $defaultWidth, $defaultHeight)],
+    ['svg' => $icons->lorumLogo4Html('max-w-full text-slate-600', $defaultWidth, $defaultHeight)],
+    ['svg' => $icons->lorumLogo5Html('max-w-full text-slate-600', $defaultWidth, $defaultHeight)],
+];
+$itemIndex = 1;
+?>
+
+<script>
+    function carousel() {
+        return {
+            container: null,
+            prev: null,
+            next: null,
+            first: null,
+            visibleElements: null,
+            speed: 3000,
+            slidePage: true, // set to false for sliding one item at the time, true for the whole visible set
+            sliderTimer: null,
+            init() {
+                this.container = this.$refs.container
+                this.first = this.container.firstElementChild;
+                this.update();
+                this.container.addEventListener('scroll', this.update.bind(this), {passive: true});
+            },
+            start() {
+                this.sliderTimer = setInterval(() => {
+                    this.next ? this.scrollTo(this.next) : this.scrollTo(this.first)
+                }, this.speed);
+            },
+            stop() {
+                clearInterval(this.sliderTimer);
+            },
+            update() {
+                const rect = this.container.getBoundingClientRect();
+
+                this.visibleElements = Array.from(this.container.children).filter((child) => {
+                    const childRect = child.getBoundingClientRect();
+                    return childRect.left >= Math.floor(rect.left) && Math.floor(childRect.right) <= rect.right;
+                });
+
+                if (this.visibleElements.length > 0) {
+                    this.next = this.getNextElement();
+                }
+            },
+            getNextElement() {
+                const list = this.visibleElements;
+                const lastElementIsVisible = !(list[list.length - 1].nextElementSibling instanceof HTMLElement);
+                const sibling = this.slidePage
+                    ? list[list.length - 1].nextElementSibling
+                    : (lastElementIsVisible ? null : list[0].nextElementSibling);
+                return (sibling instanceof HTMLElement) ? sibling : null;
+            },
+            scrollTo(element) {
+                const current = this.container;
+                if (!current || !element) return;
+                const nextScrollPosition = element.offsetLeft;
+                current.scroll({ left: nextScrollPosition, behavior: 'smooth' });
+            }
+        };
+    }
+</script>
+
+<section
+    x-data="carousel()"
+    x-defer="intersect"
+    x-id="['carousel-end', 'carousel-desc']"
+    x-intersect:enter="start()"
+    x-intersect:leave="stop()"
+    class="relative my-20"
+    :aria-describedby="$id('carousel-desc')"
+>
+    <?php if ($showTitle): ?>
+        <div class="mb-4 sm:flex sm:justify-between sm:items-baseline">
+            <div
+                :id="$id('carousel-desc')"
+                class="text-3xl leading-9 font-bold text-gray-800"
+            >
+                <?= $escaper->escapeHtml(__('Our favorite brands')) ?>
+            </div>
+            <a
+                href="<?= $escaper->escapeUrl($block->getUrl('home')) ?>"
+                class="text-blue-700 text-lg leading-7 font-semibold"
+            >
+                <?= $escaper->escapeHtml(__('Browse all brands')) ?> →
+            </a>
+        </div>
+    <?php endif; ?>
+
+    <a
+        :href="`#${$id('carousel-end')}`"
+        class="sr-only focus:not-sr-only focus:absolute focus:z-30 focus:bg-white"
+    ><?= $escaper->escapeHtml(__('Press to skip the carousel')) ?></a>
+    <div
+        class="snap flex gap-8 sm:gap-20 py-10 border-y border-gray-300 overflow-x-auto overscroll-x-contain md:py-7 md:gap-16"
+        role="region"
+        aria-roledescription="<?= $escaper->escapeHtml(__('Carousel')) ?>"
+        aria-live="polite"
+        x-ref="container"
+    >
+        <?php foreach ($items as $item): ?>
+            <?php if ($item['url'] ?? false): ?>
+                <a
+                    href="<?= $escaper->escapeUrl($item['url'])?>"
+                    class="shrink-0 w-[calc(50%_-_theme(spacing.4))] sm:w-[calc(50%_-_theme(spacing.10))] md:w-[170px]"
+                    aria-label="<?= $escaper->escapeHtmlAttr(__('Item %1 of %2', $itemIndex++, count($items))) ?>"
+                    aria-roledescription="<?= $escaper->escapeHtml(__('Carousel item')) ?>"
+                    :aria-hidden="!visibleElements.includes($el)"
+                    @focusin="stop()"
+                >
+            <?php else: ?>
+                <div
+                    class="shrink-0 w-[calc(50%_-_theme(spacing.4))] sm:w-[calc(50%_-_theme(spacing.10))] md:w-[170px]"
+                    aria-label="<?= $escaper->escapeHtmlAttr(__('Item %1 of %2', $itemIndex++, count($items))) ?>"
+                    aria-roledescription="<?= $escaper->escapeHtml(__('Carousel item')) ?>"
+                    :aria-hidden="!visibleElements.includes($el)"
+                >
+            <?php endif; ?>
+                <?php if ($item['svg'] ?? false): ?>
+                    <?= $item['svg'] ?>
+                <?php elseif ($item['image_url'] ?? false): ?>
+                    <img
+                        src="<?= $escaper->escapeHtmlAttr($item['image_url']) ?>"
+                        alt="<?= $escaper->escapeHtmlAttr($item['alt'] ?? '') ?>"
+                        width="<?= $escaper->escapeHtmlAttr($item['image_width'] ?? $defaultWidth) ?>"
+                        height="<?= $escaper->escapeHtmlAttr($item['image_height'] ?? $defaultHeight) ?>"
+                        loading="lazy"
+                    >
+                <?php endif; ?>
+            <?php if ($item['url'] ?? false): ?>
+                </a>
+            <?php else: ?>
+                </div>
+            <?php endif; ?>
+        <?php endforeach; ?>
+    </div>
+    <span :id="$id('carousel-end')" tabindex="-1"></span>
+</section>
